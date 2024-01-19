@@ -1,0 +1,115 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cffffa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color:transparent; /* Set your preferred background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex; /* Display children in a flex container */
+}
+
+.left-image {
+  max-width: 200px; /* Set the maximum width of the image */
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.content {
+  flex-grow: 1; /* Allow the content to grow and take remaining space */
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00494b;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.client-info-section {
+  background-color: #74ccff; /* Set your preferred background color */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.client-info-section p {
+  margin: 8px 0;
+  color: #333;
+}
+
+
+/* App.css */
+
+/* ... (existing styles) */
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold; /* Add bold font-weight for labels */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+/* Add style for paragraph tags */
+p {
+  margin: 8px 0;
+  color: #555; /* Change the color as needed */
+}
+
+/* Style for the section displaying client information */
+.client-info-section {
+  background-color: #74ccff; /* Set your preferred background color */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.client-info-section p {
+  margin: 8px 0;
+  color: #333;
+  font-weight: bold; /* Add bold font-weight for client info details */
+}
